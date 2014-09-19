@@ -1,9 +1,9 @@
-{% assign posts = 'portfolio-post' | get_posts %}
-{% if page.list_type == 'portfolio-post' %}
+{% assign posts = 'employees-post' | get_posts %}
+{% if page.list_type == 'employees-post' %}
     {% if post_type_template == 'index' %}
-    	{% get_template_part 'templates/portfolio/index' %}
+    	{% get_template_part 'templates/employees/index' %}
     {% endif %}
     {% if post_type_template == 'single' %}
-    	{% get_template_part 'templates/portfolio/single' %}
+    	{% get_template_part 'templates/employees/single' %}
     {% endif %}
 {% endif %}  
