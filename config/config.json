@@ -8,7 +8,7 @@
     	[{
     		"name": "Poster",
     		"icon": "/cms/images/back/icons/page.png", 
-    		"url": "editposts.aspx?post_type=portfolio-post",
+    		"url": "editposts.aspx?post_type=employees-post",
         },
         {
     		"name": "Anställda",
