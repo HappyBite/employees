@@ -1,5 +1,5 @@
-var portfolio = {};
-portfolio.startUp = function() {
+var employees = {};
+employees.startUp = function() {
 	$('.post-images a').click(function(e) {
 		var imagePlaceholder = $('#image-placeholder');
 		var imageUrl = $(this).attr('href');
@@ -18,5 +18,5 @@ portfolio.startUp = function() {
 	});
 }
 $(document).ready(function() {
-    portfolio.startUp();
+    employees.startUp();
 });
