@@ -44,7 +44,7 @@
 			}
 		},
 	}],
-        "register":
+   	"register":
 	[
 		{
 			"scripts":
@@ -65,4 +65,54 @@
 			],
 		}
 	],
+	"save":
+	{
+		"posts":
+		[
+			{
+				"post_name": "Anställd 1",
+				"position": "0",
+				"post_type": "employees-post",
+				"title": "Stina Larsson",
+				"content": "<p>This is a sample employee only.</p>",
+				"post_options":
+				{
+					"attached_images": ["/global/images/image/1.jpg"],
+				}
+			},
+			{
+				"post_name": "Anställd 2",
+				"position": "1",
+				"post_type": "employees-post",
+				"title": "Stina Larsson",
+				"content": "<p>This is a sample employee only.</p>",
+				"post_options":
+				{
+					"attached_images": ["/global/images/image/1.jpg"],
+				}
+			},
+			{
+				"post_name": "Anställd 3",
+				"position": "2",
+				"post_type": "employees-post",
+				"title": "Stina Larsson",
+				"content": "<p>This is a sample employee only.</p>",
+				"post_options":
+				{
+					"attached_images": ["/global/images/image/1.jpg"],
+				}
+			},
+			{
+				"post_name": "Anställd 4",
+				"position": "3",
+				"post_type": "employees-post",
+				"title": "Stina Larsson",
+				"content": "<p>This is a sample employee only.</p>",
+				"post_options":
+				{
+					"attached_images": ["/global/images/image/1.jpg"],
+				}
+			},
+		],
+	}
 }
